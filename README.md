@@ -54,3 +54,11 @@ public void cancelOrder(boolean status) {
 - Domain Model
     - 도메인이라 불리는 개발 대상을 모든 사람이 동일한 관점에서 이해할 수 있고 공유할 수 있도록 단순화 시킨 것을 의미
     - @Entity가 사용되는 영역이라고 이해해도 된다. 하지만, 무조건 데이터베이스의 테이블과 관계가 있어야만 그런것은 아니다.
+
+**Dirty Checking**
+
+- JPA의 개념에서 나온 말이며 Entity 객체의 값을 변경하여 쿼리문 질의 없이 적용하는 것을 말함.
+
+**Spring Data - Auditing**
+
+- Spring Dtata에서는 Entity를 생성 또는 변경한 시점을 추적할 수 있는 기능 제공해준다.
