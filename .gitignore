@@ -2,5 +2,5 @@
 .gradle
 build
 gradle
-src/main/resources/static/
-src/main/resources/templates/
+
+src/main/resources/application-oauth.properties
